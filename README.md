@@ -12,16 +12,16 @@ LinkedList es una implementación de la interfaz List que nos permite crear cole
 ### 2.- DIFERENCIAS ENTRE LINKEDLIST Y ARRAYLIST
 
 Las principales diferencias entre LinkedList y ArrayList son:
-		 
-     -Mientras que ArrayList solo guarda un valor en una única posición, LinkedList guarda 3 valores diferentes (las referencias tanto al elemento anterior y al posterior, así como la información del elemento en sí) en una posición.
+
+	-Mientras que ArrayList solo guarda un valor en una única posición, LinkedList guarda 3 valores diferentes (las referencias tanto al elemento anterior y al posterior, así como la información del elemento en sí) en una posición.
 	
-    -ArrayList genera un array redimensionable mientras que LinkedList proporciona la implementación de la lista doble que hereda de List.
+	-ArrayList genera un array redimensionable mientras que LinkedList proporciona la implementación de la lista doble que hereda de List.
 		
-    -Cuando se añade un elemento, ArrayList lo mete en el siguiente espacio disponible, mientras que LinkedList es capaz de insertarlo en cualquier lugar cambiando los valores de la referencia posterior y anterior.
+	-Cuando se añade un elemento, ArrayList lo mete en el siguiente espacio disponible, mientras que LinkedList es capaz de insertarlo en cualquier lugar cambiando los valores de la referencia posterior y anterior.
 		
-    -ArrayList es capaz de acceder a cualquier elemento de forma aleatoria usando índices, mientras que LinkedList tiene que ser iterado desde el primer elemento hasta llegar al elemento buscado.
+	-ArrayList es capaz de acceder a cualquier elemento de forma aleatoria usando índices, mientras que LinkedList tiene que ser iterado desde el primer elemento hasta llegar al elemento buscado.
 		
-    -ArrayList tiene un almacenamiento limitado (aunque redimensionable), mientras que LinkedList posee almacenamiento infinito (al menos hasta la máxima potencia de tu ordenador).
+	-ArrayList tiene un almacenamiento limitado (aunque redimensionable), mientras que LinkedList posee almacenamiento infinito (al menos hasta la máxima potencia de tu ordenador).
 
 ## 3.- PRINCIPALES MÉTODOS DE LINKEDLIST
 	
