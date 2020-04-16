@@ -3,7 +3,11 @@
 
 ### 1.- ¿QUÉ ES UNA LINKEDLIST?
 
-LinkedList es una implementación de la interfaz List que nos permite crear colecciones donde los elementos están secuenciados (uno detrás de otro) conectados al siguiente elemento de la lista por medio de un enlace. La principal utilidad de esta colección es crear listas en las que cada elemento (conocido como nodo en esta colección) está formado por 2 partes: la primera es donde se guarda la información principal del nodo, siendo estos valores genéricos, y una referencia que lo enlaza con el siguiente elemento de la lista, así como una referencia al elemento anterior (cabe destacar que el primer elemento no tiene referencia anterior y el último no la tiene al posterior, como es lógico).  
+LinkedList es una implementación de la interfaz List que nos permite crear colecciones donde los elementos están secuenciados (uno detrás de otro) conectados al siguiente elemento de la lista por medio de un enlace. La principal utilidad de esta colección es crear listas en las que cada elemento (conocido como nodo en esta colección) está formado por 2 partes: la primera es donde se guarda la información principal del nodo, siendo estos valores genéricos, y una referencia que lo enlaza con el siguiente elemento de la lista, así como una referencia al elemento anterior (cabe destacar que el primer elemento no tiene referencia anterior y el último no la tiene al posterior, como es lógico).
+
+![](images/unnamed.jpg)
+
+#### Aquí podemos observar de donde hereda LinkedList.
 
 ### 2.- DIFERENCIAS ENTRE LINKEDLIST Y ARRAYLIST
 
